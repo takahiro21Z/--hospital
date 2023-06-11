@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>タイトル</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+
+</head>
+<body>
+  <!-- ヘッダー開始 -->
+  <header class="header header_contents">
+    <div class="header__inner header-inner">
+      <h1 class="header__logo">
+        <a href=""><img src="./img/common/header_logo.png" alt="病院のロゴ"></a>
+      </h1>
+      <button class="header__hamburger hamburger openbtn1 js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav header-nav g-nav js-drawer">
+        <ul class="header-nav__items">
+          <li class="header-nav__item">
+            <a href="about.html">クリニックについて</a>
+            <div class="header-nav__img u-mobile">
+            <img src="./img/common/Line.png" alt="青いライン">
+          </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="news.html">お知らせ</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="treatment.html">診療案内</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="contact.html">お問い合わせ</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="circle-bg"></div>
+  </header>
+  <!-- ヘッダー終了 -->
+
+  <!-- main開始 -->
+<main>
+ <!-- about-mv -->
+<section class="about-mv">
+  <div class="about-mv-wrapper">
+    <div class="about-mv__contet contact-page__img">
+      <div class="about-mv__img">
+        <img src="./img/contact/contact_mv.jpg" alt="治療中の画像">
+      </div>
+      <div class="about-mv__title">
+        <h2>Contact</h2><span>お問い合わせ</span>
+      </div>
+    </div>
+  </div>
+  <div class="about-mv__inner inner">
+    <div class="btn__wrapper">
+    <div class="home__btn">
+      <a href="index.html">HOME</a>
+    </div>
+    <div class="about__btn">
+      <a href="">お問い合わせ</a>
+    </div>
+   </div>
+  </div>
+</section>
+
+<section class="contact-page">
+  <div class="contact-page__inner inner">
+    <div class="contact-page__wrapper">
+  <h2 class="section-title contact-page__title">
+      <span class="section-title__ja">お問い合わせフォーム</span>
+    </h2>
+    <p class="contact-page__text">
+      ご質問、ご要望、ご相談は下記フォームを<br class="u-mobile"> ご利用ください。
+      <br> ※体調に不安がある方は、直接医師の診察をお勧めします。</p>
+    </div>
+  </div>
+<div class="contact-form">
+  <form action="" class="contact__form form">
+    <div class="form__item">              <!-- formでくくる1 -->
+      <div class="form__label-area">
+         <label for="name" class="form__label">お名前</label>
+         <span class="form__required">必須</span>
+      </div>
+      <div class="form__input-area">
+         <input type="text" name="name" id="name">
+      </div>
+    </div>
+    <div class="form__item">                 <!-- formでくくる2 -->
+      <div class="form__label-area">
+         <label for="e-mail" class="form__label">フリガナ</label>
+         <span class="form__required">必須</span>
+      </div>
+      <div class="form__input-area">
+         <input type="email" name="e-mail" id="e-mail">
+      </div>
+    </div>
+    <div class="form__item">
+      <div class="form__label-area">           <!-- formでくくる3 ここは必須いらない -->
+         <label for="tel" class="form__label">電話番号</label>
+         <span class="form__required">必須</span>
+      </div>
+      <div class="form__input-area">
+         <input type="email" name="e-mail" id="tel">
+      </div>
+    </div>
+    <div class="form__item">
+      <div class="form__label-area">           <!-- formでくくる3 ここは必須いらない -->
+         <label for="tel" class="form__label">メールアドレス</label>
+         <span class="form__required">必須</span>
+      </div>
+      <div class="form__input-area">
+         <input type="email" name="e-mail" id="address">
+      </div>
+    </div>
+    <div class="form__item form__item-frex">
+      <div class="form__label-area">             <!-- formでくくる4 少し他のと違うから注意 -->
+         <label for="message" class="form__label">お問い合わせ内容</label>
+         <span class="form__required">必須</span>
+      </div>
+      <div class="form__input-area">              <!-- 他と変わっている部分 -->
+        <textarea name="message" id="message"  
+          cols="30" rows="10"></textarea>
+      </div>
+    </div>
+      <div class="form__message">記載していただいた個人情報は、今回のお問合せ以外には使用しません。<br> 
+        ご本人の同意がなければ第三者に個人情報を提供することもございません。<br>
+        取得した個人情報は管理責任者を定め、紛失や漏洩などが発生しないよう積極的な安全対策を実施いたします。</div>
+    <div class="contact-form__btn"><a href="sent.html">送信する
+    </a>
+  </div>
+  </form>
+</div>
+
+</section>
+
+   </main>
+<!-- フッター -->
+   <footer class="footer footer-top">
+    <div class="footer__inner inner">
+      <div class="footer__wrapper">
+        <nav class="footer__nav">
+          <ul class="footer__nav-items">
+            <li class="footer__nav-item">
+              <a href="index.html">ホーム</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="about.html">クリニックについて</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="news.html">お知らせ</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="treatment.html">診療案内</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ul>
+          <div class="footer-line"></div>
+        </nav>
+        <div class="footer__logo">
+          <img src="./img/common/footer_logo.png" alt="">
+        </div>
+      </div>
+      <div class="footer__text-box">
+        <div class="footer__text-gloup">
+        <p class="foter-text">福岡県福岡市中央区渡邉123</p>
+        <p class="footer-tel">Tel. 093-0000-0000</p>
+      </div>
+    </div>    
+  </div>
+    <div class="footer-bottom">
+      <p>©︎2022 Watanabe neuro-spone clinic</p>
+    </div>
+
+   </footer>
+  </body>
+</html>
+
+
+
+
+
+
+ 
