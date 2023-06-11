@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>タイトル</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+
+</head>
+
+<body>
+  <!-- ヘッダー開始 -->
+  <header class="header header_contents">
+    <div class="header__inner header-inner">
+      <h1 class="header__logo">
+        <a href=""><img src="./img/common/header_logo.png" alt="病院のロゴ"></a>
+      </h1>
+      <button class="header__hamburger hamburger openbtn1 js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav header-nav g-nav js-drawer">
+        <ul class="header-nav__items">
+          <li class="header-nav__item">
+            <a href="about.html">クリニックについて</a>
+            <div class="header-nav__img u-mobile">
+            <img src="./img/common/Line.png" alt="青いライン">
+          </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="news.html">お知らせ</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="treatment.html">診療案内</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="contact.html">お問い合わせ</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="circle-bg"></div>
+  </header>
+  <!-- ヘッダー終了 -->
+
+  <!-- main開始 -->
+
+<main>
+ <!-- treatment-mv -->
+    <section class="treartment treartment-page-top">
+    <div class="treartment-mv__contet news-mv__contet">
+      <div class="news-mv__img">
+        <img src="./img/news/news_mv.jpg" alt="治療中の画像">
+      </div>
+      <div class="treartment-mv__title">
+        <h2>News</h2><span>お知らせ</span>
+      </div>
+    </div>
+  <div class="treartment-mv__inner inner">
+    <div class="btn__wrapper">
+    <div class="home__btn">
+      <a href="index.html">HOME</a>
+    </div>
+    <div class="home__btn">
+      <a href="news.html">お知らせ</a>
+    </div>
+    <div class="treartment__btn u-mobile">
+      <a href="news-page.html">営業時間について</a>
+    </div>
+    </div>
+  </div> 
+</section>
+
+<section class="news-link news-link-top">
+<div class="news-link__inner inner">
+  <div class="news__wraaper">
+   <div class="news__wrapper-box">
+      <!-- ここから記事 -->
+     <div class="news-link__wrapper">
+       <a href="news-page.html" class="news-link__items">
+          <div class="news-link__title" style="color: #FF7676; border-color: #FF7676">
+              営業時間について
+          </div>
+          <div class="news-link__text u-desktop">コロナウイルス拡大に伴う営業時間短縮のお知らせコロナウイルス拡大に伴う営業時間短縮のお知らせ</div>
+          <time datetime="2022-03-31" class="news-link__date">2022.03.31</time>
+       </a>
+      <div class="news-link__img">
+        <img src="./img/news/news_eyecatch.jpg" alt="">
+     </div>
+ </div>
+ <!-- 記事終わり -->
+
+  <!-- ここから旧記事 -->
+ <div class="news-link__wrapper">
+   <a href="" class="news-link__items">
+      <div class="news-link__box">
+        <div class="news-link__title" style="color: #FF7676; border-color: #FF7676">
+           営業時間について
+        </div>
+         <div class="news-link__text">変更前のカードアイテムです</div>
+        <time datetime="2022-03-31" class="news-link__date">2022.03.31</time>
+      </div> 
+   </a>
+   <div class="news-link__img">
+      <img src="./img/news/news_eyecatch.jpg" alt="">
+   </div>
+ </div>
+<!-- 記事終わり -->
+  </div>
+ <div class="category__gloup-box">
+  <div class="category__box-a">
+  <h2 class="category__title">カテゴリー</h2>
+  <ul class="category__items">
+    <li class="category__item">
+      <a href="">スタッフブログ
+        <span class="category__span"></span>
+      </a>
+    </li>
+    <li class="category__item">
+      <a href="">診療時間のお知らせ
+        <span class="category__span"></span>
+      </a>
+    </li>
+    <li class="category__item">
+      <a href="">健康コラム
+        <span class="category__span"></span>
+      </a>
+    </li>
+    <li class="category__item">
+      <a href="">メディア情報
+        <span class="category__span"></span>
+      </a>
+    </li>
+  </ul>
+  </div>
+  <div class="category__box-b">
+    <h2 class="category__title">月別アーカイブ</h2>
+    <ul class="category__items">
+      <li class="category__item">
+       <a href="">2022年3月
+        <span class="category__span"></span>
+       </a>
+      </li>
+      <li class="category__item">
+        <a href="">2022年1月
+          <span class="category__span"></span>
+        </a> 
+      </li>
+      <li class="category__item">
+        <a href="">2022年1月
+          <span class="category__span"></span>
+        </a>
+      </li>
+      <li class="category__item">
+        <a href="">2021年12月
+          <span class="category__span"></span>
+        </a>
+      </li>
+    </ul>
+ </div>
+</div>
+  </div>
+</div>
+</section>
+   </main>
+<!-- フッター -->
+   <footer class="footer footer-top">
+    <div class="footer__inner inner">
+      <div class="footer__wrapper">
+        <nav class="footer__nav">
+          <ul class="footer__nav-items">
+            <li class="footer__nav-item">
+              <a href="index.html">ホーム</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="about.html">クリニックについて</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="news.html">お知らせ</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="treatment.html">診療案内</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ul>
+          <div class="footer-line"></div>
+        </nav>
+        <div class="footer__logo">
+          <img src="./img/common/footer_logo.png" alt="">
+        </div>
+      </div>
+      <div class="footer__text-box">
+        <div class="footer__text-gloup">
+        <p class="foter-text">福岡県福岡市中央区渡邉123</p>
+        <p class="footer-tel">Tel. 093-0000-0000</p>
+      </div>
+    </div>
+  </div>
+    <div class="footer-bottom">
+      <p>©︎2022 Watanabe neuro-spone clinic</p>
+    </div>
+   </footer>
+  </body>
+</html>
+
