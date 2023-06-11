@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>タイトル</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+
+</head>
+<body>
+  <!-- ヘッダー開始 -->
+  <header class="header header_contents">
+    <div class="header__inner header-inner">
+      <h1 class="header__logo">
+        <a href=""><img src="./img/common/header_logo.png" alt="病院のロゴ"></a>
+      </h1>
+      <button class="header__hamburger hamburger openbtn1 js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav header-nav g-nav js-drawer">
+        <ul class="header-nav__items">
+          <li class="header-nav__item">
+            <a href="about.html">クリニックについて</a>
+            <div class="header-nav__img u-mobile">
+            <img src="./img/common/Line.png" alt="青いライン">
+          </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="news.html">お知らせ</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="treatment.html">診療案内</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+          <li class="header-nav__item item-list">
+            <a href="contact.html">お問い合わせ</a>
+            <div class="header-nav__img u-mobile">
+              <img src="./img/common/Line.png" alt="青いライン">
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="circle-bg"></div>
+  </header>
+  <!-- ヘッダー終了 -->
+
+  <!-- main開始 -->
+<main>
+ <!-- treatment-mv -->
+<section class="treartment treartment-page-top">
+  <div class="treartment-mv-wrapper">
+    <div class="treartment-mv__contet">
+      <div class="treartment-mv__img">
+        <img src="./img/treatment/treatment_mv.jpg" alt="治療中の画像">
+      </div>
+      <div class="treartment-mv__title">
+        <h2>Treatoment</h2><span>診療科目</span>
+      </div>
+    </div>
+  </div>
+  <div class="treartment-mv__inner inner">
+    <div class="btn__wrapper">
+    <div class="home__btn">
+      <a href="index.html">HOME</a>
+    </div>
+    <div class="treartment__btn"><a href="treatment.html">診療科目</a>
+    </div>
+   </div>
+  </div>
+</section>
+
+<!-- treatment-body -->
+<section class="treatment treatment-date">
+  <div class="treatment-date__inner inner">
+    <div class="treatment__btn-wrapper">
+      <div class="treatment__btn treatment__btn-a">
+        <a href="" class="treatment-btn-a">身体の痛み</a>
+      </div>
+      <div class="treatment__btn treatment__btn-b">
+        <a href="" class="treatment-btn-a">身体機能の不調</a>
+      </div>
+      <div class="treatment__btn treatment__btn-c">
+        <a href="" class="treatment-btn-a">健診</a>
+      </div>
+    </div>
+<h2 class="section-title treatment-title treatment__cards-title">
+  <span class="section-title__ja treatment-title-ja">身体機能の不調</span>
+</h2>
+<div class="treatment-message-box treatment-cards__text">
+  <p>ちょっとした痛みからやってくる病気も少なからず存在します。</p>
+  <p> 少しでも異変を感じたら早期に受診しましょう。</p>
+</div>
+<div class="treatment-crads">
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="headache.html">
+      <img src="./img/treatment/treatment_eyecatch_1.jpg" alt="頭痛"></a>
+    </div>
+    <p class="treatment-card__text">頭痛</p>
+  </div>
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="">
+      <img src="./img/treatment/treatment_eyecatch_2.jpg" alt="首・肩の痛み"></a>
+    </div>
+    <p class="treatment-card__text">首・肩の痛み</p>
+  </div>
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="">
+      <img src="./img/treatment/treatment_eyecatch_3.jpg" alt="腰・臀部・足の痛み"></a>
+    </div>
+    <p class="treatment-card__text">腰・臀部・足の痛み</p>
+  </div>
+</div>
+<h2 class="section-title treatment-title treatment__cards-title">
+  <span class="section-title__ja treatment-title-ja">身体機能の不調</span>
+</h2>
+<div class="treatment-message-box treatment-cards__text">
+  <p>歩行障害や呂律が回らないなど、脳の病気を疑う要注意症状です。</p>
+  <p>一刻も早く頭部CT/MRIなどの精査を行い、速やかに原因を特定、治療を開始する必要があります。</p>
+</div>
+<div class="treatment-crads">
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="">
+      <img src="./img/treatment/treatment_eyecatch_4.jpg" alt="歩行障害"></a>
+    </div>
+    <p class="treatment-card__text">歩行障害</p>
+  </div>
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="">
+      <img src="./img/treatment/treatment_eyecatch_5.jpg" alt="めまい・ふらつき"></a>
+    </div>
+    <p class="treatment-card__text">めまい・ふらつき</p>
+  </div>
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="">
+      <img src="./img/treatment/treatment_eyecatch_6.jpg" alt="呂律が回らない"></a>
+    </div>
+    <p class="treatment-card__text">呂律が回らない</p>
+  </div>
+</div>
+<h2 class="section-title treatment-title treatment__cards-title">
+  <span class="section-title__ja treatment-title-ja">身体機能の不調</span>
+</h2>
+<div class="treatment-message-box treatment-cards__text">
+  <p>脳卒中は予防が第一です。早期発見・早期治療で人生まだまだ楽しみたい！</p>
+  <p>脳の状態を知ることのできる大変貴重な機会です。一度受診してみませんか？</p>
+</div>
+<div class="treatment-crads">
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="">
+      <img src="./img/treatment/treatment_eyecatch_7.jpg" alt="脳卒中予防"></a>
+    </div>
+    <p class="treatment-card__text">脳卒中予防</p>
+  </div>
+  <div class="treatment-card-item">
+    <div class="treatment-card-img"><a href="">
+      <img src="./img/treatment/treatment_eyecatch_8.jpg" alt="脳ドック"></a>
+    </div>
+    <p class="treatment-card__text">脳ドック</p>
+  </div>
+</div>
+
+ </div>
+</section>
+
+   </main>
+<!-- フッター -->
+   <footer class="footer footer-top">
+    <div class="footer__inner inner">
+      <div class="footer__wrapper">
+        <nav class="footer__nav">
+          <ul class="footer__nav-items">
+            <li class="footer__nav-item">
+              <a href="index.html">ホーム</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="about.html">クリニックについて</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="news.html">お知らせ</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="treatment.html">診療案内</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ul>
+          <div class="footer-line"></div>
+        </nav>
+        <div class="footer__logo">
+          <img src="./img/common/footer_logo.png" alt="">
+        </div>
+      </div>
+      <div class="footer__text-box">
+        <div class="footer__text-gloup">
+        <p class="foter-text">福岡県福岡市中央区渡邉123</p>
+        <p class="footer-tel">Tel. 093-0000-0000</p>
+      </div>
+    </div>
+  </div>
+    <div class="footer-bottom">
+      <p>©︎2022 Watanabe neuro-spone clinic</p>
+    </div>
+   </footer>
+  </body>
+</html>
+
+
+
+
+
+
+ 
